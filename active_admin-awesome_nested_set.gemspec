@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", ">= 3.2.5", "< 4.1.0"
+  s.add_dependency "awesome_nested_set"
 
   # Development server
   s.add_development_dependency "thin"
