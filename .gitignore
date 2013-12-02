@@ -8,3 +8,6 @@ spec/dummy/.sass-cache
 *.gem
 .yardoc/
 tmp/
+
+# Gems should be locked done in gemspec/Gemfile
+Gemfile.lock
